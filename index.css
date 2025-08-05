@@ -1,0 +1,58 @@
+.search {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    right: 13px;
+    top: 14px;
+    color: gray;
+}
+.location_icon{
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 8px;
+    color: orangered;
+}
+.loca .downarrow{
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 280px;
+}
+.cards{
+    display: flex;
+    gap: 5px;
+}
+.card{
+    margin-top: 30px;
+    display: flex;
+    flex: 1;
+    height: 380px;
+    width: 380px;
+}
+.line{
+    height: 20px;
+    width: 78%;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    position: absolute;
+    top: 780px;
+    left: 160px;
+    margin-bottom: 20px;
+}
+.linearea{
+    display: flex;
+    justify-content: space-between;
+}
+.leftarrow{
+    position: absolute;
+    color: gray;
+
+}
+.rightarrow{
+    position: absolute;
+    left: 1155px;
+    color: gray;
+   
+}
