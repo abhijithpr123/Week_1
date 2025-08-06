@@ -181,25 +181,6 @@
     /* width: 130px; */
     gap: 10px;
 }
-
-/* .htlinner1{
-    height: 175px;
-    width: 100%;
-    background-image: url(/assets/Hyatt.jpeg);
-    background-repeat: no-repeat;
-} */
-/* .htlinner2{
-    height: 175px;
-    width: 100%;
-    background-image: url(/assets/TheOven.jpeg);
-    background-repeat: no-repeat;
-}
-.htlinner3{
-    height: 175px;
-    width: 100%;
-    background-image: url(/assets/FortCochinSeafood.jpeg);
-    background-repeat: no-repeat;
-} */
 .inimg {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
