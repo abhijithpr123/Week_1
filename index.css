@@ -8,29 +8,34 @@
     top: 14px;
     color: gray;
 }
-.location_icon{
+
+.location_icon {
     position: absolute;
     padding-top: 15px;
     padding-left: 8px;
     color: orangered;
 }
-.loca .downarrow{
+
+.loca .downarrow {
     position: absolute;
     padding-top: 15px;
     padding-left: 280px;
 }
-.cards{
+
+.cards {
     display: flex;
     gap: 5px;
 }
-.card{
+
+.card {
     margin-top: 30px;
     display: flex;
     flex: 1;
     height: 380px;
     width: 380px;
 }
-.line{
+
+.line {
     height: 20px;
     width: 78%;
     justify-content: center;
@@ -41,18 +46,290 @@
     left: 160px;
     margin-bottom: 20px;
 }
-.linearea{
+
+.linearea {
     display: flex;
     justify-content: space-between;
 }
-.leftarrow{
+
+.leftarrow {
     position: absolute;
     color: gray;
 
 }
-.rightarrow{
+
+.rightarrow {
     position: absolute;
     left: 1155px;
     color: gray;
-   
 }
+
+.second {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    gap: 10px;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+
+.ssub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.secondmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scndhead {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 20px;
+}
+
+.sheadcontnt {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow_side {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(200, 210, 210);
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.sh1 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.scndimg {
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+}
+
+.scndimg p {
+    margin-top: 50px;
+}
+
+.groceries {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 150px;
+    gap: 10px;
+}
+
+.groceriesmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 130px; */
+    gap: 10px;
+}
+
+.hotelsmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotels {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 380px;
+    gap: 20px;
+}
+
+.htl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 130px; */
+    gap: 10px;
+}
+
+/* .htlinner1{
+    height: 175px;
+    width: 100%;
+    background-image: url(/assets/Hyatt.jpeg);
+    background-repeat: no-repeat;
+} */
+/* .htlinner2{
+    height: 175px;
+    width: 100%;
+    background-image: url(/assets/TheOven.jpeg);
+    background-repeat: no-repeat;
+}
+.htlinner3{
+    height: 175px;
+    width: 100%;
+    background-image: url(/assets/FortCochinSeafood.jpeg);
+    background-repeat: no-repeat;
+} */
+.inimg {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 450px;
+    height: 175px;
+}
+
+.htlp1 {
+    position: absolute;
+    font-size: larger;
+    font-weight: 900;
+    color: white;
+    margin-right: 160px;
+    margin-top: 115px;
+    /* right: 50px; */
+}
+
+.htlp2 {
+    position: absolute;
+    font-size: larger;
+    font-weight: 900;
+    color: white;
+    margin-right: 270px;
+    margin-top: 115px;
+    /* right: 50px; */
+}
+
+.htlp3 {
+    position: absolute;
+    font-size: larger;
+    font-weight: 900;
+    color: white;
+    margin-right: 160px;
+    margin-top: 115px;
+    /* right: 50px; */
+}
+
+/* .htlinner1{
+    border-radius: 20px;
+} */
+.cn1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.cnp {
+    font-size: small;
+    color: gray;
+}
+
+.cn2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.cn3 {
+    background-color: rgb(240, 233, 233);
+    /* height: 30px; */
+    display: flex;
+    padding: 8px;
+    border-radius: 20px;
+}
+
+.checkicon {
+    /* margin-bottom: -1px; */
+    margin-right: 5px;
+}
+
+.blogo {
+    height: 25px;
+    width: 25px;
+}
+
+.btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(32, 154, 32);
+    margin: 8px;
+    border-radius: 10px;
+    width: 95%;
+    height: 38px;
+}
+
+.btnlogo {
+    display: flex;
+    flex: 1;
+    padding-left: 5px;
+}
+
+.btncnt {
+    display: flex;
+    flex: 7;
+    justify-content: space-between;
+    padding-right: 10px;
+}
+
+.btnp {
+    font-size: small;
+    font-weight: 900;
+    color: white;
+}
+
+.btn2 {
+    display: flex;
+    background-color: rgb(194, 244, 119);
+    align-items: center;
+    margin: 8px;
+    border-radius: 10px;
+    width: 95%;
+    height: 38px;
+}
+
+.btnp2 {
+    color: green;
+    padding-left: 5px;
+}
+.htl1{
+    padding: 5px;
+}
+ .htlmain{
+    border-radius: 20px;
+    /* background-color: aquamarine; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; 
+}
+
+
+  border: 2px solid red;
+  padding: 10px;
+  border-top-radius: 25px;
